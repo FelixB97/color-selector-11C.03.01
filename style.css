@@ -1,0 +1,22 @@
+#colorPicker {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  width: 300px;
+}
+
+#colorOutput {
+  width: 300px;
+  height: 300px;
+  background-color: black;
+}
+
+#infoContainer div {
+  display: flex;
+  flex-direction: row;
+}
+
+#infoContainer div p:first-child {
+  padding-right: 50px;
+}
